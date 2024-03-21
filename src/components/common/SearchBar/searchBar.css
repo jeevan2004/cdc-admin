@@ -1,0 +1,33 @@
+/* search bar */
+.serach_bar form {
+  margin-top: 0;
+  position: relative;
+  width: 100%;
+}
+.serach_bar .form-control {
+  color: #7d726c;
+  height: 40px;
+  padding: 10px 10px 10px 40px;
+  font-weight: 500;
+  border-radius: 50px;
+}
+.serach_bar .btn {
+  background-color: transparent;
+  border-color: transparent;
+  color: #6f6f6f;
+  min-height: 40px;
+  padding: 7px 15px;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.serach_bar {
+  width: 321px;
+}
+
+.serach_bar input {
+  border: 1px solid #0000001a;
+  width: 100%;
+  border-radius: 4px !important;
+  background: #fcfcfc;
+}

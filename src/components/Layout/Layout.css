@@ -1,0 +1,33 @@
+div#wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.left_sidear {
+  width: 250px;
+  min-height: 100vh;
+  background: #00000095;
+}
+
+div#content-wrapper {
+  width: calc(100% - 250px);
+}
+
+.dashboard_content {
+  padding: 20px;
+  color: #1a1a1a;
+  background-color: #fff;
+  height: 100%;
+}
+
+.dashboard_content {
+  margin-top: 80px;
+}
+
+@media (max-width: 767px) {
+  .site_desktop_header {
+    display: none;
+  }
+  .site_mobile_header {
+    display: block;
+  }
+}

@@ -1,0 +1,121 @@
+.form-group label {
+  color: #1a1a1a;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 130%;
+  letter-spacing: 0.36px;
+}
+.form-group small {
+  color: #1a1a1a;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 130%; /* 15.6px */
+  letter-spacing: 0.24px;
+}
+.form-group small span {
+  color: #454dc6;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 130%; /* 19.5px */
+  letter-spacing: 0.3px;
+}
+.input_field_group span.serch_icon {
+  position: absolute;
+  right: 10px;
+}
+small.show_all {
+  color: #1a1a1a;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.3px;
+}
+small.show_all span {
+  color: #1a1a1a;
+  font-weight: 600;
+}
+
+.contnet .inner p {
+  color: rgba(26, 26, 26, 0.9);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%;
+  letter-spacing: 0.63px;
+  text-transform: capitalize;
+}
+
+.checkBlack input,
+.checkBlack input:focus {
+  border: 1px solid #000 !important;
+  width: 20px;
+  height: 20px;
+  border-radius: 3px !important;
+}
+
+body .checkBlack .form-check-input:checked {
+  background-color: #000000 !important;
+  border-color: #000000 !important;
+}
+button.submitBtn {
+  border-radius: 4px;
+  background: #1a1a1a;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  color: #fff;
+  border: 1px solid #1a1a1a;
+  font-size: 16px;
+  width: 100%;
+  max-width: 340px;
+  margin: 0 auto;
+  text-align: center;
+  display: block;
+  padding: 6px 0;
+  margin-top: 40px;
+}
+.border_b {
+  border-bottom: 1px solid #6f6f6f;
+}
+.all_result .border_b:last-child {
+  border-bottom: 0;
+}
+.input_field_group .input_fields .form-control {
+  background: transparent;
+}
+
+.input_field_group .input_fields .flag-dropdown {
+  border: 0;
+  background: #f0f0f0;
+}
+.react-tel-input .selected-flag,
+.react-tel-input .selected-flag:hover {
+  background: #f0f0f0;
+}
+
+.modal-backdrop {
+  display: none !important;
+}
+
+.modal_backdrop {
+  --bs-backdrop-zindex: 1050;
+  --bs-backdrop-bg: #000;
+  --bs-backdrop-opacity: 0.5;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  width: 100vw;
+  height: 100vh;
+  opacity: 0.5;
+  background-color: #000;
+}
+body {
+  overflow: auto !important;
+}
+button.btn-close.popup_btn_po {
+  position: absolute;
+  right: 10px;
+}

@@ -1,0 +1,10 @@
+.input_file_box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 223px;
+  border: 1px solid #1817161a;
+  padding: 34px 39px;
+  border-radius: 20px;
+}

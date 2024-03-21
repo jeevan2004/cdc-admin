@@ -1,0 +1,17 @@
+.custom_modal_outer .modal_logo {
+  max-width: 123px;
+}
+.custom_modal_outer .modal_header {
+  padding: 14px 47px;
+}
+.custom_modal_outer .modal_body {
+  padding: 28px 91px 49px 47px;
+}
+.custom_modal_outer .modal_body p {
+  margin-bottom: 29px;
+}
+.custom_modal_outer button.btn-close {
+  filter: invert(2);
+  opacity: 1;
+  background-size: 17px;
+}

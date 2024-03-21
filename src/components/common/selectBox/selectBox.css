@@ -1,0 +1,12 @@
+.select_group label {
+  font-family: Satoshi, sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+}
+.select_group .css-13cymwt-control {
+  border-radius: 50px;
+}
+
+.select_group .css-1hb7zxy-IndicatorsContainer span {
+  background: transparent;
+}

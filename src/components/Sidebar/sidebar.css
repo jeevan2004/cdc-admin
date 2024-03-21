@@ -1,0 +1,249 @@
+/* .sidebar {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.sidebar .navbar-nav {
+  width: 100%;
+}
+
+.navbar-nav a.nav-link {
+  border-radius: 8px;
+  color: #fff;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+  background-color: #fff !important;
+  color: rgb(7, 7, 7);
+}
+.imagelogo {
+  width: 40%;
+  height: 40%;
+}
+.dashboard {
+  text-decoration: none;
+  color: #fff;
+}
+.dashboard :active {
+  background-color: #fff !important;
+  color: black;
+}
+.dropdown-item {
+  margin-left: 5%;
+  color: white;
+} */
+
+.sidebar {
+  bottom: 0;
+  left: 0;
+  margin-top: 0;
+  position: fixed;
+  top: 80px;
+  transition: all 0.2s ease-in-out 0s;
+  width: 250px;
+  z-index: 99999;
+  /* background: #1a1a1a; */
+  background: linear-gradient(89.9deg, #d04240 1.56%, #d87438 99.91%);
+}
+.sidebar.opened {
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+.sidebar-inner {
+  height: 100%;
+  min-height: 100%;
+  transition: all 0.2s ease-in-out 0s;
+}
+.sidebar-menu {
+  padding: 15px;
+}
+
+.dashboard_logo {
+  width: 100%;
+  text-align: center;
+  padding: 17px;
+}
+.dashboard_logo img {
+  width: 30%;
+}
+.sidebar-menu ul {
+  font-size: 15px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+.sidebar-menu li a {
+  color: #6f6f6f;
+  display: block;
+  font-size: 16px;
+  height: auto;
+  padding: 0 20px;
+}
+.sidebar-menu li a:hover {
+  color: #fff;
+  /* background: #3d5ee1; */
+  border-radius: 6px;
+}
+.sidebar-menu > ul > li > a:hover {
+  background-color: #fff;
+  color: #1a1a1a;
+  /* padding-left: 30px; */
+}
+.sidebar-menu li.active > a {
+  background-color: #fff;
+  color: #1a1a1a;
+  position: relative;
+  border-radius: 6px;
+  padding-left: 30px;
+}
+
+.sidebar-menu ul ul a:hover {
+  color: #fff;
+  background: unset;
+  border-radius: 6px;
+}
+
+.sidebar-menu ul ul a.active {
+  color: #ffff;
+  background: unset;
+  border-radius: 6px;
+  padding: 7px 10px;
+}
+.mobile_btn {
+  display: none;
+  float: left;
+}
+.sidebar .sidebar-menu > ul > li > a span {
+  transition: all 0.1s;
+  display: inline-block;
+  margin-left: 10px;
+  white-space: nowrap;
+}
+.sidebar .sidebar-menu > ul > li > a span.chat-user {
+  margin-left: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.sidebar .sidebar-menu > ul > li > a span.badge {
+  margin-left: auto;
+}
+.sidebar-menu ul ul a {
+  display: block;
+  font-size: 15px;
+  padding: 7px 10px 7px 30px;
+  position: relative;
+  margin-bottom: 2px;
+  color: #fff;
+}
+
+.sidebar-menu ul ul a:hover {
+  color: #fff;
+}
+.sidebar-menu ul ul {
+  display: none;
+  margin-left: 15px;
+}
+.sidebar-menu ul ul ul a {
+  padding-left: 65px;
+}
+.sidebar-menu ul ul ul ul a {
+  padding-left: 85px;
+}
+.sidebar-menu > ul > li {
+  margin-bottom: 3px;
+  position: relative;
+}
+.sidebar-menu > ul > li:last-child {
+  margin-bottom: 0;
+}
+.sidebar-menu .menu-arrow {
+  -webkit-transition: -webkit-transform 0.15s;
+  -o-transition: -o-transform 0.15s;
+  transition: transform 0.15s;
+  position: absolute;
+  right: 15px;
+  display: inline-block;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  text-rendering: auto;
+  line-height: 40px;
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transform: translate(0, 0);
+  -ms-transform: translate(0, 0);
+  -o-transform: translate(0, 0);
+  transform: translate(0, 0);
+  line-height: 18px;
+  top: 16px;
+}
+.sidebar-menu .menu-arrow:before {
+  content: "\f105";
+}
+.sidebar-menu li a.subdrop .menu-arrow {
+  -ms-transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+.sidebar-menu ul ul a .menu-arrow {
+  top: 10px;
+}
+.sidebar-menu > ul > li > a {
+  align-items: center;
+  display: flex;
+  justify-content: flex-start;
+  color: #fff;
+  padding: 12px 15px;
+  position: relative;
+  transition: all 0.2s ease-in-out 0s;
+}
+.sidebar-menu ul li a i {
+  display: inline-block;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: left;
+  vertical-align: middle;
+  width: 13px;
+  transition: all 0.2s ease-in-out 0s;
+}
+.sidebar-menu ul li.menu-title a i {
+  font-size: 16px !important;
+  margin-right: 0;
+  text-align: right;
+  width: auto;
+}
+.sidebar-menu li a > .badge {
+  color: #fff;
+}
+.right-side-views {
+  display: none;
+}
+
+.sub_menu {
+  display: flex !important;
+  align-items: center !important;
+}
+
+.sub_menu .custom_icon {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.sub_menu .custom_icon.active {
+  box-shadow: 0px 0px 8px 0px #ffffff;
+  background: #fff;
+}
+
+.sub_menu i {
+  color: #e6b80b;
+  font-weight: 700;
+}

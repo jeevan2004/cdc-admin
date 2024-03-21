@@ -1,0 +1,19 @@
+.common_popup .modal-header h4 {
+  font-family: SF UI Display;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0.02em;
+  color: #1a1a1a;
+  text-align: center;
+  width: 100%;
+}
+.common_popup .modal-header button.btn-close {
+  position: absolute;
+  right: 20px;
+  top: 30px;
+}
+
+.common_popup .modal-dialog .modal-content {
+  padding: 25px;
+}

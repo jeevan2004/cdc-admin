@@ -1,0 +1,22 @@
+.aadharNumber input {
+  width: 44px;
+  height: 44px;
+  margin-right: 5px;
+  text-align: center;
+}
+
+.aadhar_sec > div input:nth-child(4n) {
+  margin-right: 25px;
+}
+
+.aadhar_sec > div input {
+  margin-right: 5px;
+  width: 44px !important;
+  height: 44px;
+  border: 1px solid #1817161a;
+  border-radius: 8px;
+}
+.aadhar_sec {
+  max-width: 630px;
+  margin: 0 auto;
+}

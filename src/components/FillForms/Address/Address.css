@@ -1,0 +1,19 @@
+.dashboard_content .inner_sec label.checkbox_lable {
+  color: #444444;
+  font-size: 13px;
+  font-family: "Open Sans";
+}
+
+.dashboard_content .inner_sec .form_group .custom_checkbox {
+  margin-right: 8px;
+  position: relative;
+  top: 3px;
+}
+
+.address_card label {
+  display: none;
+}
+
+.dashboard_content .inner_sec label.checkbox_lable {
+  display: inline;
+}

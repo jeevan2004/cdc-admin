@@ -1,0 +1,16 @@
+.appointment_details ul li {
+  font-size: 15px;
+  line-height: 24px;
+  color: #2d2520;
+}
+.appointment_details ul li span {
+  color: #707070;
+  width: fit-content;
+  min-width: 150px;
+  display: inline-block;
+}
+
+.appointment_details ul li small {
+  font-size: 16px;
+  padding-right: 5px;
+}

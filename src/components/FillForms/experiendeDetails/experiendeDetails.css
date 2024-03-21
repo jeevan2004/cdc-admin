@@ -1,0 +1,6 @@
+.experience_year label {
+  display: none;
+}
+.experience_year .select_group {
+  margin-bottom: 0 !important;
+}

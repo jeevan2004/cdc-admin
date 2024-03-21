@@ -1,0 +1,83 @@
+.dashboard_header {
+  padding: 3px 55px;
+  box-shadow: 0px 4px 4px 0px #002b5114;
+  border-bottom: 1px solid #1817161a;
+}
+
+.dashboard_header .create_patient {
+  display: flex;
+  background: #d86b24;
+  border: 1px solid #8a8a8a80;
+  box-shadow: 0px 4px 10px 0px #00000040;
+  border-radius: 50px;
+  padding: 6px 7px;
+  max-width: 180px;
+  width: 100%;
+  align-items: center;
+}
+
+.dashboard_header .create_patient span {
+  background: #ffff;
+  border-radius: 50%;
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  text-align: center;
+}
+
+.dashboard_header .create_patient small {
+  font-size: 14px;
+  padding: 0 10px;
+  color: #ffff;
+}
+
+.dashboard_header .header_menu .notification {
+  color: #676767;
+  margin: 0px 30px;
+}
+.dashboard_header .header_menu .profile_dropdown span i {
+  color: #676767;
+}
+
+.dashboard_header .header_menu .profile_dropdown .dropdown-menu {
+  padding: 0;
+}
+
+.dashboard_header .header_menu .profile_dropdown .dropdown-menu a {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 10px 15px;
+}
+
+.dashboard_header .header_menu .profile_dropdown .dropdown-menu a p {
+  display: flex;
+  align-items: center;
+}
+
+.dashboard_header .dropdown-item.active,
+.dashboard_header .dropdown-item:active {
+  background-color: unset;
+}
+
+.dashboard_header .dropdown-menu[data-bs-popper] {
+  left: -115px;
+  top: 50px;
+}
+.dashboard_header .header_menu .profile_dropdown .dropdown-menu a:last-child {
+  border: unset;
+}
+
+.dashboard_header .header_menu .profile_dropdown > a {
+  display: flex;
+  align-items: center;
+  padding-top: 0;
+}
+
+.dashboard_header .header_menu .profile_dropdown > a::after {
+  content: "\f078";
+  font-family: "Font Awesome 5 Free";
+  border: none;
+  font-weight: 600;
+  color: #fff;
+  margin-left: 10px;
+  display: none;
+}

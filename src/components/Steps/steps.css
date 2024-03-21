@@ -1,0 +1,83 @@
+.steps .steps_header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+  align-items: center;
+}
+
+.steps p {
+  margin: 0px;
+  color: #fff;
+}
+
+.steps .steps_header .steps_back {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  font-size: 16px;
+  width: 130px;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.steps .steps_header button {
+  border: none;
+  background: none;
+  color: #7e85f7;
+}
+
+.steps .steps_content p {
+  font-size: 20px;
+}
+
+.steps .steps_content ul {
+  padding: 20px 0;
+  margin: 0;
+  display: flex;
+  /* justify-content: center; */
+}
+
+.steps .steps_content ul li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 10px;
+  font-size: 14px;
+  /* width: 100px; */
+  padding: 5px 10px;
+  border: 1px solid orange;
+  color: orange;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.steps .steps_content ul li p {
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.steps .steps_content ul li span {
+  width: 80px;
+  height: 15px;
+  background: #999;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.steps .step_active {
+  border: 1px solid #fff;
+}
+
+.steps .step_complete {
+  background: #fff !important;
+}
+
+.steps .steps_content ul li.step_complete {
+  background: #1faf38 !important;
+  border: #1faf38 !important;
+  color: #fff;
+}
+.steps .steps_content ul li.step_active {
+  color: #3b79cc !important;
+  border-color: #3b79cc !important;
+}

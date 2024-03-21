@@ -1,0 +1,49 @@
+.top_footer {
+  padding-top: 43px;
+  padding-bottom: 40px;
+  background-size: cover;
+  /* background-image: url("../../assets/images/footer_bg.png"); */
+}
+.top_footer h5 {
+  margin-bottom: 21px;
+}
+.top_footer ul li {
+  line-height: 0;
+}
+.top_footer a {
+  text-decoration: none;
+}
+.top_footer button {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.top_footer .form-control {
+  padding: 12px 12px 15px 21px;
+  width: calc(100% - 100px);
+}
+.top_footer input::placeholder {
+  color: #1f4565;
+}
+.bottom_footer {
+  padding: 35px 0;
+}
+.bottom_footer .bottom_links a {
+  text-decoration: none;
+}
+.bottom_footer .bottom_links .seprator {
+  margin: 0 5px;
+}
+.bottom_footer .bottom_icons {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.bottom_footer .bottom_icons div {
+  margin-left: 12px;
+}
+.bottom_footer .bottom_icons div svg {
+  fill: white;
+  width: 19px;
+  height: 19px;
+  cursor: pointer;
+}
