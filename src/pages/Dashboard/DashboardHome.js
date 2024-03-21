@@ -24,6 +24,22 @@ const DashboardHome = () => {
         selectedRows
       );
     },
+    onSelect: (record, selected, selectedRows) => {
+      const selectedRowKeys = selectedRows.map((row) => row.key);
+      console.log(
+        `selectedRowKeys: ${selectedRowKeys}`,
+        "selectedRows: ",
+        selectedRows
+      );
+    },
+    onSelectAll: (selected, selectedRows, changeRows) => {
+      const selectedRowKeys = selectedRows.map((row) => row.key);
+      console.log(
+        `selectedRowKeys: ${selectedRowKeys}`,
+        "selectedRows: ",
+        selectedRows
+      );
+    },
   };
   return (
     <>

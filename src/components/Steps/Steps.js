@@ -44,15 +44,16 @@ const Steps = () => {
             {steps?.map((step, index) => {
               return (
                 <li
+                  onClick={() => setCurrentStep(index)}
                   key={index}
-                  className={
+                  className={`${
                     currentStep === index
                       ? "step_active"
                       : // "step_complete"
                       currentStep > index
                       ? "step_complete"
                       : ""
-                  }
+                  } ${currentStep - 1 === index ? "" : "disable"}`}
                 >
                   {step.name}
                 </li>

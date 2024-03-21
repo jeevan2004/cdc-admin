@@ -3,6 +3,7 @@ import { Switch } from "antd";
 export const newAnnouncements = {
   datasource: [
     {
+      key: 1,
       ChildName: "Rohit",
       Gender: "Male",
       Age: "15 years",
@@ -12,6 +13,7 @@ export const newAnnouncements = {
       Status: "New",
     },
     {
+      key: 2,
       ChildName: "Suvarna",
       Gender: "Female",
       Age: "16 years",
@@ -21,6 +23,7 @@ export const newAnnouncements = {
       Status: "New",
     },
     {
+      key: 3,
       ChildName: "Ramarao",
       Gender: "Male",
       Age: "10 years",
@@ -34,30 +37,37 @@ export const newAnnouncements = {
     {
       title: "ChildName",
       dataIndex: "ChildName",
+      key: "ChildName",
     },
     {
       title: "Gender",
       dataIndex: "Gender",
+      key: "Gender",
     },
     {
       title: "Age",
       dataIndex: "Age",
+      key: "Age",
     },
     {
       title: "ParentName",
       dataIndex: "ParentName",
+      key: "ParentName",
     },
     {
       title: "PhoneNumber",
       dataIndex: "PhoneNumber",
+      key: "PhoneNumber",
     },
     {
       title: "Appointment",
       dataIndex: "Appointment",
+      key: "Appointment",
     },
     {
       title: "Status",
       dataIndex: "Status",
+      key: "Status",
       render: (text, record) => (
         <div
           style={{
