@@ -2,7 +2,6 @@ import React from "react";
 // import notificationlogo from "../../assets/images/notificationlogo.jpg";
 // import profilelogo from "../../assets/images/profilelogo.jpeg";
 import { Container, Form, Nav, Navbar, NavDropdown } from "react-bootstrap";
-import Badge from "../../assets/images/badge.png";
 import Logo from "../../assets/images/logo.png";
 import Profile from "../../assets/images/profile.png";
 import AddUser from "../../assets/images/addUser.svg";
@@ -26,7 +25,7 @@ const Header = () => {
             <img src={Logo} alt="" />
           </div>
           <div className="flex_between">
-            <Link to="/create-appointment" className="create_patient">
+            <Link to="/create-patient" className="create_patient">
               <span>
                 <img src={AddUser} alt="" />
               </span>
@@ -47,15 +46,6 @@ const Header = () => {
                 className="mr-5 profile_dropdown"
               >
                 <NavDropdown.Item href="#Profile">
-                  <p>
-                    <span>
-                      <img src={Badge} alt="" />
-                      Premium
-                    </span>
-                    <small className="blue_btn ps-2">Upgrade</small>
-                  </p>
-                </NavDropdown.Item>
-                <NavDropdown.Item href="#Settings">
                   View Profile
                 </NavDropdown.Item>
                 <NavDropdown.Item onClick={() => doLogout()}>
